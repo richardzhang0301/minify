@@ -5,8 +5,8 @@ import (
 	"bytes"
 	"io/ioutil"
 
-	"github.com/tdewolff/minify/v2"
-	"github.com/tdewolff/minify/v2/css"
+	"github.com/richardzhang0301/minify"
+	"github.com/richardzhang0301/minify/css"
 )
 
 func Fuzz(data []byte) int {
