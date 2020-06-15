@@ -15,8 +15,8 @@ do
     compile_fuzzer github.com/tdewolff/parse/tests/$fuzz_target Fuzz parse-$fuzz_target-fuzzer
 done
 
-find $GOPATH/src/github.com/tdewolff/minify/tests/* -maxdepth 0 -type d | while read target
+find $GOPATH/src/github.com/richardzhang0301/minify/tests/* -maxdepth 0 -type d | while read target
 do
     fuzz_target=`echo $target | rev | cut -d'/' -f 1 | rev`
-    compile_fuzzer github.com/tdewolff/minify/tests/$fuzz_target Fuzz minify-$fuzz_target-fuzzer
+    compile_fuzzer github.com/richardzhang0301/minify/tests/$fuzz_target Fuzz minify-$fuzz_target-fuzzer
 done
