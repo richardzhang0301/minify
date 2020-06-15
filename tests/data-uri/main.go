@@ -1,7 +1,7 @@
 // +build gofuzz
 package fuzz
 
-import "github.com/tdewolff/minify"
+import "github.com/tdewolff/minify/v2"
 
 func Fuzz(data []byte) int {
 	m := minify.New()
