@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/tdewolff/minify/v2"
+	"github.com/tdewolff/minify"
 	"github.com/tdewolff/parse/v2/css"
 	"github.com/tdewolff/test"
 )

@@ -2,7 +2,7 @@
 package fuzz
 
 import (
-	"github.com/tdewolff/minify/v2"
+	"github.com/tdewolff/minify"
 	"github.com/tdewolff/parse"
 )
 

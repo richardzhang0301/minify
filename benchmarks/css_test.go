@@ -3,7 +3,7 @@ package benchmarks
 import (
 	"testing"
 
-	"github.com/tdewolff/minify/v2/css"
+	"github.com/tdewolff/minify/css"
 )
 
 var cssSamples = []string{
